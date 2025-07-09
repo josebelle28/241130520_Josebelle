@@ -1,3 +1,45 @@
 header{
     border-bottom-color: aqua;
 }
+body{
+    font-family: Arial, sans-serif;
+    background: white;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.product-section {
+    width: 60%;
+}
+.logo {
+    color: brown;
+}
+.product {
+    display: flex;
+    align-items: center;
+    border: 1px solid burlywood;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: white;
+}
+.product img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+.details {
+    flex: 1;
+}
+.qty {
+    display: flex;
+    align-items: center;
+    border: 1px solid yellow;
+    padding: 5px;
+    margin-right: 10px;
+}
+.qty button {
+    
+}
